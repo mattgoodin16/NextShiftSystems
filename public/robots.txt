@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block internal Next.js system paths
+Disallow: /_next/
+Disallow: /api/
+
+# Your sitemap location
+Sitemap: https://next-shift-systems.vercel.app/sitemap.xml
