@@ -5,7 +5,9 @@ import ActionHub from "../components/ActionHub";
 
 export const metadata = {
   title: "NextShift Systems",
-  description: "Work Smarter. Automate Faster.",
+  description: "Work Smarter. Automate Faster.",verification: {
+    google: "<meta name="google-site-verification" content="0_gtx03YnncjXE6dkCDcHgYoJ4YO8hnTdknPnrVSxM8" />", 
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
